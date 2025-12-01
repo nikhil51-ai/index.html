@@ -5,81 +5,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MY MOVIE BLOG</title>
     <link rel="stylesheet" href="/nick/style.css">
-    <style>
-      * {
-        background-color: black;
-        color: azure;
-      }S
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
   </head>
-  <h1>MY MULTIMEDIA BLOG sponsored by TAP ACADEMY &trade;</h1>
-  <h2>My fav songs of all time</h2>
+  <body>
+    <header class="main-header">
+      <h1>MY MULTIMEDIA BLOG <span class="sponsor">sponsored by TAP ACADEMY &trade;</span></h1>
+    </header>
 
-  <h4>SONG 1 🕺</h4>
-  <audio src="/DAY2/song1.mp3" controls></audio>
-  <h4>SONG 2 🕺</h4>
-  <audio src="/DAY2/song2.mp3" controls></audio
-  >//
-  <h4>SONG 3 🕺</h4>
-  <audio src="/DAY2/song3.mp3" controls></audio>
+    <main>
+      <section class="songs-section">
+        <h2>My fav songs of all time</h2>
+        <div class="songs-grid">
+          <div class="song-card">
+            <h4>SONG 1 🕺</h4>
+            <audio src="/nick/Boom Boom (Ringtone).mp3" controls></audio>
+          </div>
+          <div class="song-card">
+            <h4>SONG 2 🕺</h4>
+            <audio src="/nick/GlobeTrotter.mp3" controls></audio>
+          </div>
+          <div class="song-card">
+            <h4>SONG 3 🕺</h4>
+            <audio src="/nick/Singari.mp3" controls></audio>
+          </div>
+        </div>
+      </section>
 
-  <h2>TOP 5 most watched Indian film <del>trailers </del>on YouTube</h2>
+      <section class="movies-section">
+        <h2>TOP 5 most watched Indian film <del>trailers </del>on YouTube</h2>
 
-  <h3>
-    <ins>1.SALAAR Part-1 Ceasefire</ins> - <mark>113.2 million</mark> & BOX
-    OFFICE COLLECTION : 700 crore🔥
-  </h3>
-  <img
-    src="https://preview.redd.it/does-salaar-has-the-same-rewatch-value-for-the-north-v0-wbm0bnwus3ud1.jpeg?auto=webp&s=e63ccc72f30583d5a17ab95fba8497dc15b83844"
-    alt="poster not FOUND"
-    height="500px"
-    width="300px"
-  />
-  <video
-    src="/DAY2/salaar.mp4"
-    controls
-    height="520px"
-    width="850px"
-    poster="/nick/pi.jpg"
-    muted
-  ></video>
-  <p>
-    Salaar: Part 1 – Ceasefire is a 2023 Indian Telugu-language epic neo-noir
-    action thriller film directed by Prashanth Neel and produced by Vijay
-    Kiragandur under Hombale Films. The film stars Prabhas in the titular role,
-    alongside an ensemble cast of Prithviraj Sukumaran, Shruti Haasan, Jagapathi
-    Babu, Bobby Simha, Sriya Reddy, Ramachandra Raju, John Vijay, Easwari Rao,
-    Tinnu Anand, Devaraj, Brahmaji and Mime Gopi. In the fictional dystopian
-    city-state of Khansaar, where monarchy still exists, the film follows the
-    friendship between Deva (Prabhas), the exiled prince of Khansaar, and
-    Varadha (Prithviraj Sukumaran), the current prince of Khansaar. When a coup
-    d'état is planned by his father's ministers and his relatives, Varadha
-    enlists Deva's help to become Khansaar's undisputed ruler.
-  </p>
-  <h3>
-    <abbr title="KOLAR GOLD FIELD">2.KGF</abbr> - chapter 2 -
-    <mark>100.2 million </mark> & BOX OFFICE COLLECTION - 1400 crore🔥
-  </h3>
-  <img src="/DAY2/kgf.jpg" alt="image not found" height="500px" width="300px" />
-  <video
-    src="/DAY2/kgf.mp4"
-    height="520px"
-    width="850px"
-    poster="/DAY2/thumbnail2.jpg"
-    controls
-    autoplay
-    muted
-  ></video>
-  <p>
-    KGF: Chapter 2 is a 2022 Indian Kannada-language period action film[20]
-    written and directed by Prashanth Neel, and produced by Vijay Kiragandur
-    under his Hombale Films banner. It serves as the direct sequel to KGF:
-    Chapter 1 (2018), as well as the second installment in the KGF franchise.
-    The film stars an ensemble cast of Yash, Sanjay Dutt, Raveena Tandon,
-    Srinidhi Shetty, Prakash Raj, Achyuth Kumar, Rao Ramesh, Vasishta N. Simha,
-    Ayyappa P. Sharma, Archana Jois, Saran Shakti, Easwari Rao, John Kokken, T.
-    S. Nagabharana and Malavika Avinash.
-  </p>
+        <article class="movie-card">
+          <div class="movie-header">
+            <h3>
+              <ins>1. SALAAR Part-1 Ceasefire</ins>
+              <span class="stats">
+                <mark>113.2 million</mark> & BOX OFFICE: 700 crore🔥
+              </span>
+            </h3>
+          </div>
+          <div class="media-content">
+            <img
+              src="https://preview.redd.it/does-salaar-has-the-same-rewatch-value-for-the-north-v0-wbm0bnwus3ud1.jpeg?auto=webp&s=e63ccc72f30583d5a17ab95fba8497dc15b83844"
+              alt="Salaar Poster"
+              class="movie-poster"
+            />
+            <video
+              src="/nick/Salar.mp4"
+              controls
+              poster="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202503/salaar-re-release-201812743-16x9_0.jpg?VersionId=CqpVYaW2eDS7y.lmIhqIDf5lrbj8Xhc6&size=690:388"
+              class="movie-trailer"
+            ></video>
+          </div>
+          <p class="movie-desc">
+            Salaar: Part 1 – Ceasefire is a 2023 Indian Telugu-language epic neo-noir
+            action thriller film directed by Prashanth Neel and produced by Vijay
+            Kiragandur under Hombale Films. The film stars Prabhas in the titular role,
+            alongside an ensemble cast of Prithviraj Sukumaran, Shruti Haasan, Jagapathi
+            Babu, Bobby Simha, Sriya Reddy, Ramachandra Raju, John Vijay, Easwari Rao,
+            Tinnu Anand, Devaraj, Brahmaji and Mime Gopi. In the fictional dystopian
+            city-state of Khansaar, where monarchy still exists, the film follows the
+            friendship between Deva (Prabhas), the exiled prince of Khansaar, and
+            Varadha (Prithviraj Sukumaran), the current prince of Khansaar. When a coup
+            d'état is planned by his father's ministers and his relatives, Varadha
+            enlists Deva's help to become Khansaar's undisputed ruler.
+          </p>
+        </article>
 
-  <body></body>
+        <article class="movie-card">
+          <div class="movie-header">
+            <h3>
+              <abbr title="KOLAR GOLD FIELD">2. KGF</abbr> - chapter 2
+              <span class="stats">
+                <mark>100.2 million </mark> & BOX OFFICE: 1400 crore🔥
+              </span>
+            </h3>
+          </div>
+          <div class="media-content">
+            <img 
+              src="https://m.media-amazon.com/images/M/MV5BM2M0YmIxNzItOWI4My00MmQzLWE0NGYtZTM3NjllNjIwZjc5XkEyXkFqcGc@._V1_.jpg" 
+              alt="KGF Poster"
+              class="movie-poster" 
+            />
+            <video
+              src="/nick/kgf.mp4"
+              poster="https://img10.hotstar.com/image/upload/f_auto,q_auto/sources/r1/cms/prod/2820/1372820-i-d017d2b54c85"
+              controls
+              class="movie-trailer"
+            ></video>
+          </div>
+          <p class="movie-desc">
+            KGF: Chapter 2 is a 2022 Indian Kannada-language period action film[20]
+            written and directed by Prashanth Neel, and produced by Vijay Kiragandur
+            under his Hombale Films banner. It serves as the direct sequel to KGF:
+            Chapter 1 (2018), as well as the second installment in the KGF franchise.
+            The film stars an ensemble cast of Yash, Sanjay Dutt, Raveena Tandon,
+            Srinidhi Shetty, Prakash Raj, Achyuth Kumar, Rao Ramesh, Vasishta N. Simha,
+            Ayyappa P. Sharma, Archana Jois, Saran Shakti, Easwari Rao, John Kokken, T.
+            S. Nagabharana and Malavika Avinash.
+          </p>
+        </article>
+      </section>
+    </main>
+  </body>
 </html>
